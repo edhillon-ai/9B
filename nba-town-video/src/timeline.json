@@ -1,0 +1,513 @@
+{
+ "lines": [
+  {
+   "id": "n1",
+   "name": "n1",
+   "speaker": "alex",
+   "text": "In this town, everyone wants to make the NBA.",
+   "start": 0.177,
+   "dur": 2.115
+  },
+  {
+   "id": "n1b",
+   "name": "n1b",
+   "speaker": "alex",
+   "text": "And somehow, the best basketball player here, is a seventy-eight-year-old grandma.",
+   "start": 2.433,
+   "dur": 3.847
+  },
+  {
+   "id": "n2",
+   "name": "n2",
+   "speaker": "alex",
+   "text": "Our mailman delivered packages like basketballs.",
+   "start": 6.811,
+   "dur": 2.197
+  },
+  {
+   "id": "n2b",
+   "name": "n2b",
+   "speaker": "alex",
+   "text": "And our baker thought he was Steph Curry.",
+   "start": 9.504,
+   "dur": 1.522
+  },
+  {
+   "id": "n3",
+   "name": "n3",
+   "speaker": "alex",
+   "text": "But one day, our mayor announced that Rudy Gobert was coming to recruit someone for an NBA team.",
+   "start": 11.839,
+   "dur": 4.783
+  },
+  {
+   "id": "n4",
+   "name": "n4",
+   "speaker": "alex",
+   "text": "So naturally, I started grinding.",
+   "start": 17.862,
+   "dur": 1.406
+  },
+  {
+   "id": "n4b",
+   "name": "n4b",
+   "speaker": "alex",
+   "text": "My best friend Ben invited me to a party, but I had bigger plans.",
+   "start": 19.445,
+   "dur": 3.234
+  },
+  {
+   "id": "huss",
+   "name": "h1",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 22.927,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h2",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 23.533,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h3",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 24.14,
+   "dur": 0.486
+  },
+  {
+   "id": "d4",
+   "name": "d4",
+   "speaker": "alex",
+   "text": "While they're out partying, I'm out here grinding,",
+   "start": 24.874,
+   "dur": 2.088
+  },
+  {
+   "id": "btw",
+   "name": "btw4",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 27.16,
+   "dur": 0.63
+  },
+  {
+   "id": "n5",
+   "name": "n5",
+   "speaker": "alex",
+   "text": "Meanwhile, Ben, the mailman, the baker, and even Grandma, were having the time of their lives.",
+   "start": 28.251,
+   "dur": 4.274
+  },
+  {
+   "id": "huss",
+   "name": "h4",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 32.772,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h5",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 33.379,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h6",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 33.986,
+   "dur": 0.486
+  },
+  {
+   "id": "n6",
+   "name": "n6",
+   "speaker": "alex",
+   "text": "I trained so hard that I started dribbling while brushing my teeth, eating breakfast, and even using the bathroom.",
+   "start": 35.145,
+   "dur": 5.095
+  },
+  {
+   "id": "d6",
+   "name": "d6",
+   "speaker": "alex",
+   "text": "While they're out partying, I'm out here getting better,",
+   "start": 40.559,
+   "dur": 2.142
+  },
+  {
+   "id": "btw",
+   "name": "btw6",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 42.898,
+   "dur": 0.63
+  },
+  {
+   "id": "n7",
+   "name": "n7",
+   "speaker": "alex",
+   "text": "When tournament day arrived, the mailman got his ankles broken, the baker airballed a layup, and our mayor somehow fouled himself.",
+   "start": 43.988,
+   "dur": 5.873
+  },
+  {
+   "id": "n8",
+   "name": "n8",
+   "speaker": "alex",
+   "text": "But Grandma was moving like she had a ninety-nine overall. She even dunked on the mayor without taking off her glasses.",
+   "start": 50.888,
+   "dur": 5.635
+  },
+  {
+   "id": "g8",
+   "name": "g8",
+   "speaker": "grandma",
+   "text": "Too small!",
+   "start": 56.7,
+   "dur": 1.198
+  },
+  {
+   "id": "n9",
+   "name": "n9",
+   "speaker": "alex",
+   "text": "Eventually, I made it to the finals against Grandma. Seven days of grinding, had all come down to this.",
+   "start": 58.783,
+   "dur": 5.003
+  },
+  {
+   "id": "hussq",
+   "name": "q1",
+   "speaker": "alex",
+   "text": "huss.",
+   "start": 64.034,
+   "dur": 0.527
+  },
+  {
+   "id": "hussq",
+   "name": "q2",
+   "speaker": "alex",
+   "text": "huss.",
+   "start": 64.773,
+   "dur": 0.527
+  },
+  {
+   "id": "hussq",
+   "name": "q3",
+   "speaker": "alex",
+   "text": "huss.",
+   "start": 65.513,
+   "dur": 0.527
+  },
+  {
+   "id": "n10",
+   "name": "n10",
+   "speaker": "alex",
+   "text": "The game was tied, and with three seconds remaining, I finally got past Grandma. I thought my NBA career had officially begun.",
+   "start": 67.313,
+   "dur": 6.384
+  },
+  {
+   "id": "g10",
+   "name": "g10",
+   "speaker": "grandma",
+   "text": "Not in my house!",
+   "start": 74.405,
+   "dur": 1.648
+  },
+  {
+   "id": "n11",
+   "name": "n11",
+   "speaker": "alex",
+   "text": "But when Rudy announced who he was recruiting, he didn't choose me, or Grandma. He chose Ben.",
+   "start": 76.548,
+   "dur": 4.119
+  },
+  {
+   "id": "n11b",
+   "name": "n11b",
+   "speaker": "alex",
+   "text": "Apparently, Rudy wasn't recruiting a basketball player. He was recruiting a mascot.",
+   "start": 80.88,
+   "dur": 3.714
+  },
+  {
+   "id": "d12",
+   "name": "d12",
+   "speaker": "alex",
+   "text": "Should've gone to the party,",
+   "start": 86.93,
+   "dur": 1.096
+  },
+  {
+   "id": "btw",
+   "name": "btw12",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 88.237,
+   "dur": 0.63
+  }
+ ],
+ "ev": {
+  "n1": [
+   0.177,
+   2.292
+  ],
+  "n1b": [
+   2.433,
+   6.28
+  ],
+  "s1end": [
+   6.28,
+   6.705
+  ],
+  "n2": [
+   6.811,
+   9.008
+  ],
+  "crash": [
+   9.008,
+   9.504
+  ],
+  "n2b": [
+   9.504,
+   11.025
+  ],
+  "bonk": [
+   11.025,
+   11.733
+  ],
+  "n3": [
+   11.839,
+   16.623
+  ],
+  "rudyTall": [
+   16.623,
+   17.755
+  ],
+  "n4": [
+   17.862,
+   19.268
+  ],
+  "n4b": [
+   19.445,
+   22.679
+  ],
+  "garage": [
+   22.679,
+   22.927
+  ],
+  "h1": [
+   22.927,
+   23.413
+  ],
+  "h2": [
+   23.533,
+   24.02
+  ],
+  "h3": [
+   24.14,
+   24.627
+  ],
+  "d4": [
+   24.874,
+   26.962
+  ],
+  "btw4": [
+   27.16,
+   27.79
+  ],
+  "s4end": [
+   27.79,
+   28.144
+  ],
+  "n5": [
+   28.251,
+   32.525
+  ],
+  "dumb": [
+   32.525,
+   32.772
+  ],
+  "h4": [
+   32.772,
+   33.259
+  ],
+  "h5": [
+   33.379,
+   33.866
+  ],
+  "h6": [
+   33.986,
+   34.472
+  ],
+  "awk5": [
+   34.472,
+   35.039
+  ],
+  "n6": [
+   35.145,
+   40.24
+  ],
+  "d6": [
+   40.559,
+   42.7
+  ],
+  "btw6": [
+   42.898,
+   43.528
+  ],
+  "s6end": [
+   43.528,
+   43.882
+  ],
+  "n7": [
+   43.988,
+   49.862
+  ],
+  "rudySad": [
+   49.862,
+   50.782
+  ],
+  "n8": [
+   50.888,
+   56.523
+  ],
+  "g8": [
+   56.7,
+   57.899
+  ],
+  "mayorFloor": [
+   57.899,
+   58.677
+  ],
+  "n9": [
+   58.783,
+   63.786
+  ],
+  "q1": [
+   64.034,
+   64.561
+  ],
+  "q2": [
+   64.773,
+   65.3
+  ],
+  "q3": [
+   65.513,
+   66.039
+  ],
+  "cookie": [
+   66.039,
+   67.243
+  ],
+  "n10": [
+   67.313,
+   73.697
+  ],
+  "block": [
+   73.697,
+   74.405
+  ],
+  "g10": [
+   74.405,
+   76.053
+  ],
+  "s10end": [
+   76.053,
+   76.407
+  ],
+  "n11": [
+   76.548,
+   80.667
+  ],
+  "n11b": [
+   80.88,
+   84.594
+  ],
+  "s11end": [
+   84.594,
+   85.231
+  ],
+  "ending": [
+   85.231,
+   86.93
+  ],
+  "d12": [
+   86.93,
+   88.025
+  ],
+  "btw12": [
+   88.237,
+   88.867
+  ],
+  "sit": [
+   88.867,
+   89.292
+  ],
+  "black": [
+   89.292,
+   90.0
+  ]
+ },
+ "scenes": {
+  "s1": [
+   0,
+   6.704930811795147
+  ],
+  "s2": [
+   6.704930811795147,
+   11.73320970241834
+  ],
+  "s3": [
+   11.73320970241834,
+   17.755372166521358
+  ],
+  "s4": [
+   17.755372166521358,
+   28.144340168602522
+  ],
+  "s5": [
+   28.144340168602522,
+   35.038641230200014
+  ],
+  "s6": [
+   35.038641230200014,
+   43.88228124951173
+  ],
+  "s7": [
+   43.88228124951173,
+   50.7818861007209
+  ],
+  "s8": [
+   50.7818861007209,
+   58.67721538382815
+  ],
+  "s9": [
+   58.67721538382815,
+   67.2426836597263
+  ],
+  "s10": [
+   67.2426836597263,
+   76.40673868835012
+  ],
+  "s11": [
+   76.40673868835012,
+   85.23074365963252
+  ],
+  "s12": [
+   85.23074365963252,
+   89.99999999999994
+  ]
+ },
+ "total": 90.0
+}
