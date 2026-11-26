@@ -1,0 +1,609 @@
+{
+ "lines": [
+  {
+   "id": "n1",
+   "name": "n1",
+   "speaker": "alex",
+   "text": "In this town, it's impossible to miss a basketball shot. Even our grandma shoots better than Steph Curry, and she's seventy-eight,",
+   "start": 0.113,
+   "dur": 6.318
+  },
+  {
+   "id": "btw",
+   "name": "btw1",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 6.516,
+   "dur": 0.63
+  },
+  {
+   "id": "n2",
+   "name": "n2",
+   "speaker": "alex",
+   "text": "Our mailman delivered packages from half-court, our baker shot three-pointers with bread, and our mayor thought he was LeBron James.",
+   "start": 7.599,
+   "dur": 6.502
+  },
+  {
+   "id": "n3",
+   "name": "n3",
+   "speaker": "alex",
+   "text": "But one day, our coach went on vacation, and my best friend Jake somehow missed a wide-open layup.",
+   "start": 14.554,
+   "dur": 4.968
+  },
+  {
+   "id": "j_bro",
+   "name": "j_bro",
+   "speaker": "jake",
+   "text": "Bro?",
+   "start": 20.032,
+   "dur": 0.676
+  },
+  {
+   "id": "n4",
+   "name": "n4",
+   "speaker": "alex",
+   "text": "I saw this as an opportunity to become the greatest basketball player alive.",
+   "start": 21.671,
+   "dur": 3.82
+  },
+  {
+   "id": "hussL",
+   "name": "h1",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 25.66,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h2",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 26.215,
+   "dur": 0.486
+  },
+  {
+   "id": "hussL",
+   "name": "h3",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 26.769,
+   "dur": 0.486
+  },
+  {
+   "id": "d4",
+   "name": "d4",
+   "speaker": "alex",
+   "text": "While they're out partying, I'm out here grinding,",
+   "start": 27.454,
+   "dur": 2.088
+  },
+  {
+   "id": "btw",
+   "name": "btw4",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 29.666,
+   "dur": 0.63
+  },
+  {
+   "id": "n5",
+   "name": "n5",
+   "speaker": "alex",
+   "text": "After twelve hours of training, I finally tested my new jumper.",
+   "start": 30.636,
+   "dur": 3.115
+  },
+  {
+   "id": "huss",
+   "name": "h4",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 34.657,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h5",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 35.256,
+   "dur": 0.486
+  },
+  {
+   "id": "hussL",
+   "name": "h6",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 35.884,
+   "dur": 0.486
+  },
+  {
+   "id": "n6",
+   "name": "n6",
+   "speaker": "alex",
+   "text": "Grandma went zero for thirty, the mailman got fired, and our mayor blamed the wind. We were indoors,",
+   "start": 37.787,
+   "dur": 5.298
+  },
+  {
+   "id": "btw",
+   "name": "btw6",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 43.17,
+   "dur": 0.63
+  },
+  {
+   "id": "huss",
+   "name": "h7",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 43.969,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h8",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 44.597,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h9",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 45.282,
+   "dur": 0.486
+  },
+  {
+   "id": "n7",
+   "name": "n7",
+   "speaker": "alex",
+   "text": "While I was grinding, Jake discovered a blinking light underneath his basketball.",
+   "start": 46.335,
+   "dur": 3.726
+  },
+  {
+   "id": "j_wifi",
+   "name": "j_wifi",
+   "speaker": "jake",
+   "text": "Bro, why does my basketball need Wi-Fi?",
+   "start": 50.203,
+   "dur": 2.179
+  },
+  {
+   "id": "huss",
+   "name": "h10",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 52.495,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h11",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 53.049,
+   "dur": 0.486
+  },
+  {
+   "id": "hussL",
+   "name": "h12",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 53.604,
+   "dur": 0.486
+  },
+  {
+   "id": "j_stop",
+   "name": "j_stop",
+   "speaker": "jake",
+   "text": "BRO, STOP!",
+   "start": 54.158,
+   "dur": 1.082
+  },
+  {
+   "id": "n8",
+   "name": "n8",
+   "speaker": "alex",
+   "text": "We followed the signal into our coach's garage, and discovered something that changed everything.",
+   "start": 55.749,
+   "dur": 4.46
+  },
+  {
+   "id": "hussL",
+   "name": "h13",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 60.379,
+   "dur": 0.486
+  },
+  {
+   "id": "n9",
+   "name": "n9",
+   "speaker": "alex",
+   "text": "Our coach had secretly controlled every basketball shot for twenty years. He literally gave the entire town aimbot.",
+   "start": 62.508,
+   "dur": 6.051
+  },
+  {
+   "id": "n10",
+   "name": "n10",
+   "speaker": "alex",
+   "text": "When our coach returned, he admitted that he'd forgotten his controller charger on vacation.",
+   "start": 69.408,
+   "dur": 4.423
+  },
+  {
+   "id": "m_lebron",
+   "name": "m_lebron",
+   "speaker": "mayor",
+   "text": "So I'm not better than LeBron?",
+   "start": 74.114,
+   "dur": 2.056
+  },
+  {
+   "id": "c_dribble",
+   "name": "c_dribble",
+   "speaker": "coach",
+   "text": "You can't even dribble.",
+   "start": 76.368,
+   "dur": 1.443
+  },
+  {
+   "id": "n11",
+   "name": "n11",
+   "speaker": "alex",
+   "text": "Once the coach plugged his controller back in, everyone became good at basketball again.",
+   "start": 79.0,
+   "dur": 4.207
+  },
+  {
+   "id": "huss",
+   "name": "h14",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 84.114,
+   "dur": 0.486
+  },
+  {
+   "id": "huss",
+   "name": "h15",
+   "speaker": "alex",
+   "text": "Huss!",
+   "start": 84.713,
+   "dur": 0.486
+  },
+  {
+   "id": "hussL",
+   "name": "h16",
+   "speaker": "alex",
+   "text": "HUSS!",
+   "start": 85.341,
+   "dur": 0.486
+  },
+  {
+   "id": "j_aimbot",
+   "name": "j_aimbot",
+   "speaker": "jake",
+   "text": "BRO, THE AIMBOT IS ON!",
+   "start": 86.507,
+   "dur": 1.474
+  },
+  {
+   "id": "d11",
+   "name": "d11",
+   "speaker": "alex",
+   "text": "Still grinding,",
+   "start": 88.151,
+   "dur": 0.868
+  },
+  {
+   "id": "btw",
+   "name": "btw11",
+   "speaker": "alex",
+   "text": "by the way.",
+   "start": 89.087,
+   "dur": 0.63
+  }
+ ],
+ "ev": {
+  "n1": [
+   0.113,
+   6.431
+  ],
+  "btw1": [
+   6.516,
+   7.146
+  ],
+  "s1end": [
+   7.146,
+   7.542
+  ],
+  "n2": [
+   7.599,
+   14.101
+  ],
+  "s2end": [
+   14.101,
+   14.497
+  ],
+  "n3": [
+   14.554,
+   19.523
+  ],
+  "miss": [
+   19.523,
+   20.032
+  ],
+  "j_bro": [
+   20.032,
+   20.708
+  ],
+  "panic": [
+   20.708,
+   21.614
+  ],
+  "n4": [
+   21.671,
+   25.491
+  ],
+  "lift": [
+   25.491,
+   25.66
+  ],
+  "h1": [
+   25.66,
+   26.147
+  ],
+  "h2": [
+   26.215,
+   26.701
+  ],
+  "h3": [
+   26.769,
+   27.256
+  ],
+  "d4": [
+   27.454,
+   29.542
+  ],
+  "btw4": [
+   29.666,
+   30.296
+  ],
+  "s4end": [
+   30.296,
+   30.579
+  ],
+  "n5": [
+   30.636,
+   33.751
+  ],
+  "prep": [
+   33.751,
+   34.657
+  ],
+  "h4": [
+   34.657,
+   35.143
+  ],
+  "h5": [
+   35.256,
+   35.743
+  ],
+  "h6": [
+   35.884,
+   36.371
+  ],
+  "shot": [
+   36.371,
+   36.937
+  ],
+  "awk5": [
+   36.937,
+   37.73
+  ],
+  "n6": [
+   37.787,
+   43.085
+  ],
+  "btw6": [
+   43.17,
+   43.8
+  ],
+  "pu": [
+   43.8,
+   43.969
+  ],
+  "h7": [
+   43.969,
+   44.456
+  ],
+  "h8": [
+   44.597,
+   45.084
+  ],
+  "h9": [
+   45.282,
+   45.769
+  ],
+  "collapse": [
+   45.769,
+   46.278
+  ],
+  "n7": [
+   46.335,
+   50.061
+  ],
+  "j_wifi": [
+   50.203,
+   52.382
+  ],
+  "sq": [
+   52.382,
+   52.495
+  ],
+  "h10": [
+   52.495,
+   52.981
+  ],
+  "h11": [
+   53.049,
+   53.536
+  ],
+  "h12": [
+   53.604,
+   54.09
+  ],
+  "j_stop": [
+   54.158,
+   55.24
+  ],
+  "s7end": [
+   55.24,
+   55.693
+  ],
+  "n8": [
+   55.749,
+   60.209
+  ],
+  "kick0": [
+   60.209,
+   60.379
+  ],
+  "h13": [
+   60.379,
+   60.865
+  ],
+  "reveal": [
+   60.865,
+   62.451
+  ],
+  "n9": [
+   62.508,
+   68.559
+  ],
+  "s9end": [
+   68.559,
+   69.352
+  ],
+  "n10": [
+   69.408,
+   73.831
+  ],
+  "surround": [
+   73.831,
+   74.114
+  ],
+  "m_lebron": [
+   74.114,
+   76.17
+  ],
+  "c_dribble": [
+   76.368,
+   77.811
+  ],
+  "crown": [
+   77.811,
+   78.944
+  ],
+  "n11": [
+   79.0,
+   83.208
+  ],
+  "fullcourt": [
+   83.208,
+   84.114
+  ],
+  "h14": [
+   84.114,
+   84.6
+  ],
+  "h15": [
+   84.713,
+   85.2
+  ],
+  "h16": [
+   85.341,
+   85.828
+  ],
+  "alexmiss": [
+   85.828,
+   86.507
+  ],
+  "j_aimbot": [
+   86.507,
+   87.981
+  ],
+  "pull": [
+   87.981,
+   88.151
+  ],
+  "d11": [
+   88.151,
+   89.019
+  ],
+  "btw11": [
+   89.087,
+   89.717
+  ],
+  "final": [
+   89.717,
+   90.0
+  ]
+ },
+ "scenes": {
+  "s1": [
+   0,
+   7.542230437665782
+  ],
+  "s2": [
+   7.542230437665782,
+   14.497471485411138
+  ],
+  "s3": [
+   14.497471485411138,
+   21.61441114058355
+  ],
+  "s4": [
+   21.61441114058355,
+   30.57943523430592
+  ],
+  "s5": [
+   30.57943523430592,
+   37.729975464190964
+  ],
+  "s6": [
+   37.729975464190964,
+   46.27816346153843
+  ],
+  "s7": [
+   46.27816346153843,
+   55.69285422192746
+  ],
+  "s8": [
+   55.69285422192746,
+   62.450943412908885
+  ],
+  "s9": [
+   62.450943412908885,
+   69.35171308576477
+  ],
+  "s10": [
+   69.35171308576477,
+   78.94360455349245
+  ],
+  "s11": [
+   78.94360455349245,
+   89.99999999999999
+  ]
+ },
+ "total": 90.0
+}

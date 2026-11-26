@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;background:#000;overflow:hidden}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Inter,sans-serif}
+#stage canvas{position:absolute;left:0;top:0;z-index:0}
+.ov,#cap,#stamp,#badge{z-index:2}
+#black{z-index:5}
+.ov{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+#vig{background:radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(0,0,0,.45) 100%)}
+#tint{mix-blend-mode:multiply}
+#cap{position:absolute;left:60px;right:60px;top:1290px;text-align:center}
+#who{display:inline-block;font-weight:900;font-size:40px;letter-spacing:2px;color:#fff;padding:8px 22px;border-radius:14px;border:5px solid #000;margin-bottom:18px}
+#line{font-weight:900;font-size:86px;line-height:1.08;color:#fff;text-transform:uppercase;-webkit-text-stroke:16px #000;paint-order:stroke fill;text-shadow:0 8px 0 rgba(0,0,0,.55)}
+#line .hl{color:#ffe14d}
+#stamp{position:absolute;top:170px;left:0;right:0;text-align:center;font-weight:900;font-size:76px;color:#fff;-webkit-text-stroke:14px #000;paint-order:stroke fill}
+#badge{position:absolute;top:360px;right:60px;transform-origin:center}
+#black{background:#000;opacity:0}
+#flash{background:#fff;opacity:0}
+</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script></head>
+<body><div id="stage">
+<div class="ov" id="tint"></div><div class="ov" id="vig"></div><div class="ov" id="flash"></div>
+<div id="stamp"></div><div id="badge"></div>
+<div id="cap"><div id="who"></div><div id="line"></div></div>
+<div class="ov" id="black"></div>
+</div>
+<script type="module">
+import { renderer, scene, camera } from './core.js';
+import { setup, renderShot, debugCam } from './shots.js';
+const TL = await (await fetch('timeline.json')).json();
+const ENV = await (await fetch('env.json')).json();
+await document.fonts.load('900 80px Inter');
+const $ = (id) => document.getElementById(id);
+const ov = {
+  stamp: (s) => { $('stamp').innerHTML = s || ''; },
+  badge: (html, scale = 1) => { $('badge').innerHTML = html || ''; $('badge').style.transform = `scale(${scale})`; },
+  tint: (css) => { $('tint').style.background = css || 'transparent'; },
+  filter: (f) => { renderer.domElement.style.filter = f || 'none'; },
+  vig: (o) => { $('vig').style.opacity = o; },
+  black: (o) => { $('black').style.opacity = o; },
+  flash: (o) => { $('flash').style.opacity = o; },
+  hideCap: false,
+};
+// ---- caption chunks ----
+const WHO = { alex: ['ALEX', '#2fae4a'], grandma: ['GRANDMA', '#7b3fb0'], jake: ['JAKE', '#2f6fd6'], mayor: ['MAYOR', '#c0141c'], coach: ['COACH', '#333333'] };
+const chunks = [];
+for (const l of TL.lines) {
+  const words = l.text.replace(/\s+/g, ' ').trim().split(' ');
+  const narr = /^n/.test(l.id);
+  // group into chunks of <= 4 words / 20 chars
+  let cur = [];
+  const groups = [];
+  for (const w of words) { const len = cur.join(' ').length + w.length; if (cur.length && (cur.length >= 4 || len > 19)) { groups.push(cur); cur = []; } cur.push(w); if (/[.,!?]$/.test(w) && cur.length >= 2) { groups.push(cur); cur = []; } }
+  if (cur.length) groups.push(cur);
+  const total = words.reduce((a, w) => a + w.length + 1.5, 0);
+  let acc = 0;
+  for (const g of groups) {
+    const ws = g.map(w => { const d = (w.length + 1.5) / total * l.dur; const o = { w, a: l.start + acc, b: l.start + acc + d }; acc += d; return o; });
+    chunks.push({ a: ws[0].a, b: ws[ws.length - 1].b, ws, speaker: l.speaker, narr, name: l.name });
+  }
+}
+function caption(T) {
+  let c = chunks.find(c => T >= c.a - 0.05 && T < c.b + 0.12);
+  if (!c || ov.hideCap) { $('cap').style.display = 'none'; return; }
+  $('cap').style.display = 'block';
+  const [n, col] = WHO[c.speaker];
+  $('who').textContent = c.narr ? '🎙 ' + n + ' (NARRATING)' : '💬 ' + n;
+  $('who').style.background = col;
+  $('line').innerHTML = c.ws.map(w => `<span class="${T >= w.a && T < w.b + 0.04 ? 'hl' : ''}">${w.w}</span>`).join(' ');
+  const age = T - c.a; $('line').style.transform = `scale(${age < 0.08 ? 0.9 + age * 1.25 : 1})`;
+}
+setup(TL, ENV);
+window.renderFrame = (f) => {
+  const T = f / 30;
+  ov.stamp(''); ov.badge(''); ov.tint(''); ov.filter(''); ov.vig(1); ov.black(0); ov.flash(0); ov.hideCap = false;
+  renderShot(T, ov);
+  if (window.DBG) debugCam(...window.DBG);
+  renderer.render(scene, camera);
+  caption(T);
+  return true;
+};
+window.NFRAMES = Math.round(TL.total * 30);
+window.ready = true;
+</script></body></html>
